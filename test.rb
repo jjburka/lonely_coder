@@ -3,7 +3,7 @@ $LOAD_PATH << File.expand_path( File.dirname(__FILE__) + '/lib/lonely_coder' )
 
 require 'lonely_coder'
 
-okc = OKCupid.new('archisextture','!eruttxesihcra!')
+okc = OKCupid.new('USERNAME','PASSWORD')
 sweet_guys = []
 
 search = okc.search({
