@@ -128,7 +128,8 @@ class OKCupid
         OKCupid::Profile.from_search_result(node)
       end
       
-      @browser.pluggable_parser.html = Mechanize::Page
+      #why does this have to be 
+      #@browser.pluggable_parser.html = Mechanize::Page
       
       @results
     end
